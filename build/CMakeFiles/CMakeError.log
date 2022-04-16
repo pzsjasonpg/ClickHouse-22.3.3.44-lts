@@ -1,0 +1,30 @@
+Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+Compiler: /usr/bin/clang-14 
+Build flags: ;--gcc-toolchain=/home/jasonpg/桌面/code/ClickHouse-22.3.3.44-lts/cmake/linux/../../contrib/sysroot/linux-x86_64;--gcc-toolchain=/home/jasonpg/桌面/code/ClickHouse-22.3.3.44-lts/cmake/linux/../../contrib/sysroot/linux-x86_64
+Id flags:  
+
+The output was:
+1
+/usr/bin/ld: 找不到 crtbeginS.o: 没有那个文件或目录
+/usr/bin/ld: 找不到 -lgcc
+/usr/bin/ld: 找不到 -lgcc_s
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+Compiler: /usr/bin/clang++-14 
+Build flags: ;--gcc-toolchain=/home/jasonpg/桌面/code/ClickHouse-22.3.3.44-lts/cmake/linux/../../contrib/sysroot/linux-x86_64;--gcc-toolchain=/home/jasonpg/桌面/code/ClickHouse-22.3.3.44-lts/cmake/linux/../../contrib/sysroot/linux-x86_64
+Id flags:  
+
+The output was:
+1
+/usr/bin/ld: 找不到 crtbeginS.o: 没有那个文件或目录
+/usr/bin/ld: 找不到 -lstdc++
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+
+
+Checking whether the ASM compiler is GNU using "--version" did not match "(GNU assembler)|(GCC)|(Free Software Foundation)":
+Ubuntu clang version 14.0.1-++20220407063117+ec13fed5867f-1~exp1~20220407063201.110
+Target: x86_64-pc-linux-gnu
+Thread model: posix
+InstalledDir: /usr/bin
